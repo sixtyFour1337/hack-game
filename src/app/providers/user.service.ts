@@ -5,9 +5,9 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class TutorialService {
+export class UserService {
 
-  private baseUrl = 'http://localhost:8080/api/tutorials';
+  private baseUrl = 'http://localhost:8080/api/users';
 
   constructor(private http: HttpClient) { }
 
