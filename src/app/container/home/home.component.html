@@ -1,2 +1,8 @@
-<button (click)="createUser()">Create user</button>
-{{ username }}
+<div class="container">
+
+    <div *ngIf="auth.userLoggedIn" class="login">
+        <app-login></app-login>
+    </div>
+
+    
+</div>

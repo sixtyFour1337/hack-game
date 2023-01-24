@@ -1,0 +1,5 @@
+<div class="container">
+    <input type="text" class="login-input" placeholder="Username" [(ngModel)]="credentials.username" />
+    <input type="password" class="login-input" placeholder="Password" [(ngModel)]="credentials.password" />
+    <div (click)="loginUser()" class="login-btn">LOGIN</div>
+</div>
